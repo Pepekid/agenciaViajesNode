@@ -19,7 +19,7 @@ db.authenticate()
 
 // Definir puerto
 // process.env.PORT es una variable de entorno
-const port = process.env.port || 5527;
+const port = process.env.DB_PORT || 5527;
 
 // Habilitar PUG
 app.set('view engine', 'pug');
