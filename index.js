@@ -3,9 +3,9 @@
 import express from 'express';
 import router from './routes/index.js';
 import db from './config/db.js';
+import dotenv from 'dotenv'
 
-
-
+dotenv.config();
 
 
 // Esta contiene una función para ejecutar express y la asignamos a la variable app
